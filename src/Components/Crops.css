@@ -1,0 +1,319 @@
+.crops-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722038400&semt=sph');
+    background-position: center;
+    background-size:3200px;
+    background-repeat: no-repeat;
+}
+  
+
+  .crops-header {
+    background-image: url('https://img.freepik.com/free-photo/selective-focus-shot-grass-field-perfect-background_181624-32747.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721347200&semt=ais_user');
+    background-size: 1700px 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: #162b15ca;
+  }
+  
+  .crops-header h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .crops-header p {
+    font-size: 30px;
+    font-weight:bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(10, 24, 11, 0.769);
+  }
+  
+  .crop-overview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 20px;
+    background-color: #f4f7f9;
+  }
+  
+  .overview-content {
+    max-width: 500px;
+    margin-right: 200px;
+  }
+  
+  .overview-content h2 {
+    font-size: 36px;
+    color: #537728;
+    margin-bottom: 20px;
+  }
+  
+  .overview-content p {
+    font-size: 20px;
+    color: #666;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .overview-image {
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+  }
+  
+  .featured-crops {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .featured-crops h2 {
+    font-size: 40px;
+    color: #537728;
+    margin-bottom: 40px;
+  }
+  
+  .crop-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    
+  }
+  
+  .crop-card {
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin:10px;
+    padding: 20px;
+    /* max-width: 300px; */
+    /* max-height: 700px; */
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;    
+  }
+  
+  .crop-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .crop-card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease; /* Smooth image transition */
+  }
+  
+  .crop-card:hover img {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .crop-card h3 {
+    font-size: 22px;
+    color: #537728;
+    margin-bottom: 10px;
+  }
+  
+  .crop-card p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-buttonc {
+    background-color: #537728;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    position: relative;
+    z-index: 40;
+    margin-top: 10px;
+  }
+  
+  .learn-more-buttonc:hover {
+    background-color: #405e20;
+    transform: translateY(-2px);
+  }
+  
+  .crop-management-tips {
+    padding: 65px 20px;
+    text-align: center;
+    background:linear-gradient(to bottom,rgb(193, 231, 249),rgb(249, 249, 249));
+
+  }
+  
+  .crop-management-tips h2 {
+    font-size: 40px;
+    color: #537728;
+    margin-bottom: 40px;
+  }
+  
+  .tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .tip-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 280px;
+    height: 1*0px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tip-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tip-card h4 {
+    font-size: 22px;
+    color: #537728;
+    margin-bottom: 10px;
+  }
+  
+  .tip-card p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .crops-action {
+    background-color: #537728;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .crops-action h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .crops-action p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    color: #537728;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #405e20;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+
+
+  .crop-detail-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 32%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    /* max-width: 650px; */
+    /* width: 90%; */
+  }
+  
+  .crop-detail-content {
+    text-align: center;
+  }
+  
+  .crop-detail-image {
+    
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 230px; /* Set a fixed height */
+    object-fit: cover;
+  }
+  
+  .crop-detail-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  /* List items for crop details */
+  .crop-detail-list li {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .crop-detail-list li:hover {
+    background-color: #e9f5e9;
+  }
+  
+  .close-details-button {
+    background-color: #a78924;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-details-button:hover {
+    background-color: #9d7800;
+  }
+
+  .background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 34, 34, 0.32); 
+    backdrop-filter: blur(5px);
+    z-index: 900; 
+    pointer-events: none; 
+  }
+
+
+
+
+
+  
+  

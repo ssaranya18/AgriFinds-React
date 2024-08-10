@@ -1,0 +1,127 @@
+.schemes-page {
+  max-width: 1570px;
+  margin: 0 auto;
+  padding: 70px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {  
+  background-image: url('https://t4.ftcdn.net/jpg/06/79/94/65/360_F_679946573_i4vHFwrD5UoQzHBi0041oxhSDOiREdZW.jpg');
+  /* text-align: center; */
+  /* font-display: center; */
+  color: #3d670e;
+  font-size: 4em;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  animation: fadeInDown 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+  width: 175.8vh;
+  margin-left: -70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: -100px; */
+}
+
+.schemes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.scheme-card {
+  background-color: #a5d99577;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  animation: fadeIn 1s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scheme-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid #4b741d;
+}
+
+.scheme-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.scheme-card:hover .scheme-image {
+  transform: scale(1.1);
+}
+
+.scheme-content {
+  text-align: center;
+}
+
+.scheme-title {
+  color: #557e25;
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+.scheme-description {
+  color: #434242;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.scheme-details {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.4;
+}
+
+.scheme-card.expanded {
+  background-color: #e8f5e9;
+  border: 1px solid #646e6d;
+  padding: 30px;
+}
+
+.load-more-button {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: #40601c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.load-more-button:hover {
+  background-color: #6c9e34;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

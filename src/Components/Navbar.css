@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f481e;
+  padding: 5px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-logo a {
+  color: white;
+  font-size: 1.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 33px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #A2CA71;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2f481eed;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #02020200;
+}
+.loginbutton{
+  border: none;
+  background: transparent;
+  padding: 6px 16px;
+  /* font-size: 1.2rem; */
+  color: white;
+  background: rgb(47, 107, 46);
+  border-radius: 5px;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+  /* margin-right: 15px; */
+}
+
+.button {
+  color: rgb(33, 71, 24);
+  background: rgb(255, 255, 255);
+} 
+
+  
+

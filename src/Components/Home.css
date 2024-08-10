@@ -1,0 +1,290 @@
+.home {
+    font-family: 'Arial', sans-serif;
+    color: #2b2a2a;
+    /* height:100vh; */
+  }
+  .hero {
+    background-image: url('C:\Users\ssara\OneDrive\Desktop\React\agri_project1\src\Assets\a1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    font-size: 45px;
+    color:white;
+  }
+  
+  .cta-button{
+    background-color: #39630a;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #537728;
+  }
+  
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  .about h2{
+    font-size: 2em;
+    color:#59832a;
+
+  }
+  
+  .about-content {
+    max-width: 650px;
+    margin-right: 30px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: 1px; */
+    line-height: 31px;
+    }
+  
+  .about-image {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .features {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .features h2 {
+    color:#59832a;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    background-color:#d8d5d5;
+    color: rgb(0, 0, 0);
+  }
+  
+  .feature-card h3 {
+    margin-bottom: 10px;
+    color:#59832a;
+  }
+  
+  
+  
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .testimonials h2{
+    font-size:2em;
+    color: #59832a;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: rgba(216, 213, 213, 0.379);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    background-color:#d8d5d5;
+    color: rgb(0, 0, 0);
+  }
+  
+  .testimonial-card h4 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #6c9e34;
+  }
+  
+  .call-to-action {
+    background-color: #254501;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    margin-bottom: 20px;
+  }
+
+@media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .about-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hero {
+      height: 70vh;
+    }
+  
+    .cta-button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  
+    .features-grid, .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+.additional-content {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+
+.technology {
+  margin-bottom: 40px;
+}
+
+.technology h2 {
+  color: #6c9e34;
+}
+
+.technology ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.technology ul li {
+  margin: 10px 0;
+}
+
+.technology-image {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.sustainable-practices {
+  margin-bottom: 40px;
+}
+
+.sustainable-practices h2 {
+  color: #6c9e34;
+}
+
+.sustainable-practices ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.sustainable-practices ul li {
+  margin: 10px 0;
+}
+
+.sustainable-image {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.community-engagement {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+}
+
+.community-engagement h2 {
+  color: #6c9e34;
+  margin-bottom: 20px;
+}
+
+.join-community-button {
+  background-color: #6c9e34;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+.join-community-button:hover {
+  background-color: #537728;
+}
+   

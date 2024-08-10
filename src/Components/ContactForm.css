@@ -1,0 +1,126 @@
+.imagecontact{
+    background-image: url('https://gurianco.com//wp-content/uploads/2017/05/636007776415889323-1046806684_farm-wallpaper-11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    height: 60vh;
+    width: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 0 0 0px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.imagecontact .image-contentc h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff3f3;
+  }
+.contact-containernew {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 1px; */
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form, .contact-info {
+    background-color: rgba(216, 213, 213, 0.32);
+    padding: 80px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    flex: 1;
+  }
+  
+  .contact-form h2, .contact-info h2 {
+    margin-bottom: 30px;
+    color: #242323;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1e1d1d;
+  }
+  
+  .form-group input, .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #A0522D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8b4513a5;
+  }
+  
+  .contact-info {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .contact-info p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #A0522D;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .map {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form, .contact-info {
+      max-width: 100%;
+    }
+  }
+  

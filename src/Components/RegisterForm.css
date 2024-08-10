@@ -1,0 +1,94 @@
+.register-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 50px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgb(31, 30, 30);
+    max-width: 370px;
+    margin: 30px auto;
+    margin-left: 800px;
+    font-family: 'Arial', sans-serif;
+    border-color: #0a0a0ad3; 
+    border-style: solid;  
+    background-color: rgba(255, 255, 255, 0.311);    
+    overflow: hidden;
+  }
+  
+  .register-container2 h2 {
+    color: #9d6b01;
+    margin-top: -10px;
+    /* margin-bottom: 5 0px; */
+    font-size: 1.7em;
+    
+  }
+  
+  .register-form2 {
+    width: 110%;
+  }
+  
+  .form-group2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group2 label {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .form-group2 input {
+    width: 102%;
+    padding: 10px;
+    border: 1px solid #464545;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .form-group2 input.error {
+    border-color: #f43c36;
+  }
+  
+  .error-message {
+    color: #f43636;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .but2[type="submit"] {
+    background-color: #785408;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-left: 140px; */
+    transition: background-color 0.3s;
+  }
+  
+  .but2[type="submit"]:hover {
+    background-color: #232d25;
+    color: #fff9f9;
+  }
+  
+  .form-footer2 {
+    margin-top: 20px;
+    margin-left: 89px;
+  
+  }
+  
+  .form-footer2 a {
+    color: #093b03;
+    text-decoration: none;
+  }
+  
+  .form-footer2 a:hover {
+    text-decoration: underline;
+  }
+  .login-container2:hover {
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.8); 
+}
+
+  
