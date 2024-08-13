@@ -1,18 +1,19 @@
 .schemes-page {
-  max-width: 1570px;
+  width:90.8%;
   margin: 0 auto;
   padding: 70px;
   font-family: 'Arial', sans-serif;
   background-color: #f2f2f2;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height:40vh; */
 }
 
-.page-title {  
-  background-image: url('https://t4.ftcdn.net/jpg/06/79/94/65/360_F_679946573_i4vHFwrD5UoQzHBi0041oxhSDOiREdZW.jpg');
-  /* text-align: center; */
-  /* font-display: center; */
+.page-title {
   color: #3d670e;
+  background-image: url('https://t4.ftcdn.net/jpg/06/79/94/65/360_F_679946573_i4vHFwrD5UoQzHBi0041oxhSDOiREdZW.jpg');
   font-size: 4em;
   margin-top: -70px;
   margin-bottom: 30px;
@@ -20,12 +21,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 470px;
-  width: 175.8vh;
-  margin-left: -70px;
+  width: 100%; 
+  /* margin-right: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-right: -100px; */
 }
 
 .schemes-list {
@@ -95,25 +95,6 @@
   padding: 30px;
 }
 
-.load-more-button {
-  display: block;
-  width: 200px;
-  margin: 30px auto;
-  padding: 10px;
-  background-color: #40601c;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-  transition: background-color 0.3s;
-  animation: fadeInUp 1s ease-in-out;
-}
-
-.load-more-button:hover {
-  background-color: #6c9e34;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -124,4 +105,3 @@
     transform: translateY(0);
   }
 }
-

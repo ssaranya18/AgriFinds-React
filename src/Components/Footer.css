@@ -1,31 +1,113 @@
 .footer {
-  /* margin-top: 10px; */
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    /* position: absolute; */
-    bottom: 0;
-    
+  background-color: #23232293;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px 20px;
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.footer-column h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 50px;
+  background-color: #87dd2b;
+}
+
+.footer-column p,
+.footer-column ul,
+.footer-column ul li {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #75b134;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #7ccc26;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #ffffff;
+  border-top: 1px solid #e1dfdf;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .footer-column {
+    margin: 20px 0;
   }
-  
-  .footer-links {
-    margin-top: 10px;
-  }
-  
-  .footer-links a {
-    color: #FFEB3B;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
-    color: #4CAF50;
-  }
-  
+}

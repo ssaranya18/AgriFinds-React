@@ -2,9 +2,7 @@
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   padding: 30px 0;
-  opacity: 0;
-  transform: translateY(20px); 
-  transition: opacity 2s ease, transform 2s ease;
+  
 }
 
 .clearfix::after {
@@ -40,7 +38,7 @@
 
 .text-content p {
   font-size: 1.1em;
-  color: #2e2d2d;
+  color: #515050;
   line-height: 1.5;
 }
 
@@ -63,6 +61,8 @@
   font-size: 1.1em;
   color: #595757e8;
   margin-bottom: 15px;
+  display: flex;
+  
 }
 
 .button-group {

@@ -68,7 +68,7 @@ const RegisterForm = () => {
       );
 
       if (signupSuccess) {
-        navigate("/home"); // Redirect to home page on successful registration
+        navigate("/"); // Redirect to home page on successful registration
       } else {
         console.error("Signup failed. Please try again.");
       }
@@ -187,7 +187,7 @@ const RegisterForm = () => {
         </center>
         <div className="form-footer2">
           <p>
-            Already have an account? <Link to="/">LOGIN</Link>
+            Already have an account? <Link to="/login">LOGIN</Link>
           </p>
         </div>
       </form>

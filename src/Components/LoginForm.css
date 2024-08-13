@@ -9,7 +9,7 @@ body {
     color: #000000; 
     background-attachment: fixed;
     height:80vh;
-    /* background-image: linear-gradient(to bottom right, rgba(95, 94, 70, 0.541), rgba(96, 96, 73, 0.468)), url('https://qph.cf2.quoracdn.net/main-qimg-7257f563b710d20aab00c4d79887226d'); */
+    background-image: linear-gradient(to bottom right, rgba(95, 94, 70, 0.541), rgba(96, 96, 73, 0.468)), url('https://qph.cf2.quoracdn.net/main-qimg-7257f563b710d20aab00c4d79887226d');
 }
 
 .login-container1 {

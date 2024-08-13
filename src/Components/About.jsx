@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './About.css';
+import Footer from './Footer';
 
 const About = () => {
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
   return (
+    
+    <div>
     <div className="about-page">
       {/* Hero Section */}
       <section className="about-hero">
@@ -85,12 +92,10 @@ const About = () => {
 
       {/* Call to Action Section */}
       <section className="cta-section">
-        <h2>Join Us on Our Journey</h2>
-        <p>
-          Discover how our Agricultural Management System can transform your farming operations and lead you towards a sustainable future.
-        </p>
-        <button className="cta-button">Learn More</button>
+        
       </section>
+      </div>
+      <Footer/>
     </div>
   );
 };

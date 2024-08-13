@@ -5,13 +5,13 @@
     padding: 0;
     background-image: url('https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722038400&semt=sph');
     background-position: center;
-    background-size:3200px;
+    background-size: cover ;
     background-repeat: no-repeat;
 }
   
 
   .crops-header {
-    background-image: url('https://img.freepik.com/free-photo/selective-focus-shot-grass-field-perfect-background_181624-32747.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721347200&semt=ais_user');
+    background-image: url('https://images.unsplash.com/photo-1511735643442-503bb3bd348a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJ5ZSUyMGZsb3VyfGVufDB8fDB8fHww');
     background-size: 1700px 790px;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,13 +36,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 140px 20px;
-    background-color: #f4f7f9;
+    padding: 100px 0px;
+    background-color: #ececec;
   }
   
   .overview-content {
-    max-width: 500px;
-    margin-right: 200px;
+    max-width: 600px;
+    margin-right: 100px;
   }
   
   .overview-content h2 {
@@ -80,12 +80,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; 
+    gap: 10px; 
     
   }
   
   .crop-card {
-    width: 320px;
+    width: 300px;
     height: 500px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -107,14 +107,14 @@
   
   .crop-card img {
     width: 100%;
-    height: 50%;
+    height: 40%;
     border-radius: 8px;
     margin-bottom: 15px;
-    transition: transform 0.3s ease; /* Smooth image transition */
+    transition: transform 0.3s ease; 
   }
   
   .crop-card:hover img {
-    transform: scale(1.05); /* Zoom effect on hover */
+    transform: scale(1.05); 
   }
   
   .crop-card h3 {
@@ -124,9 +124,9 @@
   }
   
   .crop-card p {
-    font-size: 18px;
+    font-size: 17.5px;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .learn-more-buttonc {
@@ -206,6 +206,7 @@
   .crops-action h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: white;
   }
   
   .crops-action p {
@@ -243,8 +244,7 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     padding: 20px;
     z-index: 1000;
-    /* max-width: 650px; */
-    /* width: 90%; */
+    max-width: 650px;
   }
   
   .crop-detail-content {
@@ -256,7 +256,7 @@
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-    height: 230px; /* Set a fixed height */
+    height: 230px; 
     object-fit: cover;
   }
   
@@ -267,7 +267,7 @@
     text-align: left;
   }
   
-  /* List items for crop details */
+
   .crop-detail-list li {
     font-size: 18px;
     color: #444;
@@ -311,7 +311,47 @@
     pointer-events: none; 
   }
 
-
+  .esection {
+    text-align: center;
+    padding: 60px 10px;
+    /* background: #f9f9f9; */
+    position: relative;
+    /* background-image: url('https://cdn.pixabay.com/photo/2022/08/04/17/49/fields-7365217_1280.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 1600px 700px;
+  }
+  
+  .explorecrops {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 10px auto 0px;
+   
+  }
+  
+  .eh1 {
+    font-size: 3rem;
+    color: #ffffff;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .bute{
+    padding: 20px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #9b6d09;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    animation : fadeIn 1s ease-in-out;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bute:hover {
+    background-color: #c29a33;
+    color: black;
+  }
+ 
 
 
 

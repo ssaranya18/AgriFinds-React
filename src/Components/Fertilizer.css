@@ -49,11 +49,12 @@
     border-radius: 8px;
   }
   
-  .fertilizer-component .fertilizer-page .hero-content h1 {
+  .fertilizer-component .fertilizer-page .hero-content1 h1 {
     font-size: 3em;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
   }
   
   .fertilizer-component .fertilizer-page .hero-content p {

@@ -1,0 +1,43 @@
+.video-tutorials-page {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgb(255, 255, 255),white);
+  }
+  
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .video-tutorials-page h2{
+    font-size: 2.3em;
+    color:rgb(90, 90, 90);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+  }
+    
+  .video-item {
+    flex: 1 1 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .video-item h3 {
+    font-size: 1.6em;
+    color: rgb(19, 100, 8);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .video-item iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 4px;
+  }
+  

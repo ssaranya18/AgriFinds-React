@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './ContactForm.css';
 import Footer from './Footer';
 import { FaUser, FaPhone, FaEnvelope, FaBuilding, FaMapMarkerAlt, FaInfoCircle, FaCommentDots, FaImage, FaSeedling, FaLocationArrow } from 'react-icons/fa';
@@ -6,7 +6,12 @@ import { FaLocationCrosshairs, FaLocationDot, FaMessage } from 'react-icons/fa6'
 
 
 const ContactForm = () => {
+  useEffect(() => {
+
+    window.scrollTo(0, 0);
+  }, []);
   return (
+    <div>
     <div className="contact-containernew">
         <section className='imagecontact'>
             <div className='image-contentc'>
@@ -68,6 +73,7 @@ const ContactForm = () => {
           <button type="submit" className="submit-btn">Submit</button>
           </center>
         </form>
+      </div>
       </div>
 
       {/* <div className="contact-info">

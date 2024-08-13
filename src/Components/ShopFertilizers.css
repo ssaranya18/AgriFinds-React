@@ -48,7 +48,7 @@
 }
 .nav-icon {
     color: black; 
-    font-size: 44px;
+    font-size: 40px;
     cursor: pointer;
 }
 .shop-component h1 {
@@ -235,11 +235,11 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ff5722;
+    background-color: #ff0000;
     color: #fff;
     border-radius: 50%;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -247,11 +247,11 @@
 }
 
 .cart-badge {
-    background-color: #ff5722; 
+    background-color: #ff0000; 
 }
 
 .liked-badge {
-    background-color: #ff5722; 
+    background-color: #ff0000; 
 }
 .icon-link {
     position: relative;

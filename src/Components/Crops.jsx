@@ -28,7 +28,7 @@ const cropData = [
   {
     name: 'Rice',
     image: 'https://media.istockphoto.com/id/481869420/photo/autumn-rice.jpg?s=612x612&w=0&k=20&c=SbuJe7ZJnV4PxWHOLBW08fIdouKLmFyH_57u2s6r8fU=',
-    description: 'Rice is a crucial global food crop. Learn key strategies for water management, pest control, and variety selection.',
+    description: 'Rice is a crucial global food crop. Learn key strategies for water management,pest control, and variety.',
     growthDuration: '120-150 days',
     fertilizers: 'Nitrogen, Phosphorus, Potassium',
     soilType: 'Clayey',
@@ -91,31 +91,32 @@ const cropData = [
     season: 'Spring, Fall',
     profit: '$150 per acre',
   },
-  {
-    name: 'Strawberry',
-    image: 'https://static.vecteezy.com/system/resources/previews/027/006/834/large_2x/ripe-red-strawberries-on-a-branch-in-the-garden-at-sunset-a-branch-with-natural-strawberries-on-a-blurred-background-of-a-strawberry-field-at-golden-hour-ai-generated-free-photo.jpg',
-    description: 'Strawberries are beloved; master soil prep, pest control, and harvesting techniques for the best yield.',
-    growthDuration: '4-6 weeks',
-    fertilizers: 'Phosphorus, Potassium',
-    soilType: 'Loamy, Sandy',
-    weather: 'Warm',
-    season: 'Spring',
-    profit: '$500 per acre',
-  },
-  {
-    name: 'Banana',
-    image: 'https://img.freepik.com/premium-photo/banana-background-fruit-background-hd-8k-wallpaper-stock-photographic-image_890746-50314.jpg',
-    description: 'Bananas require specific conditions. Discover tips on soil, irrigation, and pest management for a fruitful yield.',
-    growthDuration: '9-12 months',
-    fertilizers: 'Nitrogen, Potassium',
-    soilType: 'Loamy, Well-drained',
-    weather: 'Tropical',
-    season: 'All year round',
-    profit: '$600 per acre',
-  },
+  // {
+  //   name: 'Strawberry',
+  //   image: 'https://static.vecteezy.com/system/resources/previews/027/006/834/large_2x/ripe-red-strawberries-on-a-branch-in-the-garden-at-sunset-a-branch-with-natural-strawberries-on-a-blurred-background-of-a-strawberry-field-at-golden-hour-ai-generated-free-photo.jpg',
+  //   description: 'Strawberries are beloved; master soil prep, pest control, and harvesting techniques for the best yield.',
+  //   growthDuration: '4-6 weeks',
+  //   fertilizers: 'Phosphorus, Potassium',
+  //   soilType: 'Loamy, Sandy',
+  //   weather: 'Warm',
+  //   season: 'Spring',
+  //   profit: '$500 per acre',
+  // },
+  // {
+  //   name: 'Banana',
+  //   image: 'https://img.freepik.com/premium-photo/banana-background-fruit-background-hd-8k-wallpaper-stock-photographic-image_890746-50314.jpg',
+  //   description: 'Bananas require specific conditions. Discover tips on soil, irrigation, and pest management for a fruitful yield.',
+  //   growthDuration: '9-12 months',
+  //   fertilizers: 'Nitrogen, Potassium',
+  //   soilType: 'Loamy, Well-drained',
+  //   weather: 'Tropical',
+  //   season: 'All year round',
+  //   profit: '$600 per acre',
+  // },
 ];
 
 const Crops = () => {
+  
   const [selectedCrop, setSelectedCrop] = useState(null);
 
   const handleLearnMore = (crop) => {
@@ -159,9 +160,15 @@ const Crops = () => {
               <img src={crop.image} alt={crop.name} />
               <h3>{crop.name}</h3>
               <p>{crop.description}</p>
-              <button className="learn-more-buttonc" onClick={() => handleLearnMore(crop)}>Learn More</button>
+              <button className="learn-more-buttonc" onClick={() => handleLearnMore(crop)}>Learn More</button>              
             </div>
+            
           ))}
+          <section className='esection'>
+            <Link to="/cropdetails">
+        <button className='bute'>VIEW MORE CROPS</button>
+        </Link>
+      </section>
         </div>
       </section>
 

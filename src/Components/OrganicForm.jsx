@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import "./OrganicFarm.css"; // Assuming CSS is stored in this file
+import "./OrganicFarm.css"; 
 
 const OrganicFarmSection = () => {
   const imagesRef = useRef(null);
@@ -18,7 +18,7 @@ const OrganicFarmSection = () => {
         });
       },
       {
-        threshold: 0.1, // Trigger when 10% of the section is visible
+        threshold: 0.1, 
       }
     );
 
@@ -67,8 +67,8 @@ const OrganicFarmSection = () => {
           className={`text-container ${isVisible ? "visible" : ""}`}
           ref={textRef}
         >
-          <h4 className="section-title">ABOUT US</h4>
-          <h2>An organic farm with a big mission behind</h2>
+          <h4 className="section-title1">ABOUT US</h4>
+          <h2>A farm with a big mission behind</h2>
           <p>
             At AgriFinds, our mission is to cultivate fresh, organic produce
             while supporting our local community. We are committed to
@@ -80,7 +80,7 @@ const OrganicFarmSection = () => {
               <span role="img" aria-label="check">
                 ✔️
               </span>{" "}
-              100% Organic Products
+              100% Pure Products
             </li>
             <li>
               <span role="img" aria-label="check">

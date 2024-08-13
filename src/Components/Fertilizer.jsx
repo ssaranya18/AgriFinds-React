@@ -79,7 +79,7 @@ const Fertilizer = () => {
         <section className="call-to-action">
           <h2>Get Expert Fertilizer Advice</h2>
           <p>Contact us for personalized fertilizer recommendations and sustainable farming practices.</p>
-          <Link to="/contact">
+          <Link to="/contactform">
           <button className="cta-button">Contact Us</button>
           </Link>
         </section>

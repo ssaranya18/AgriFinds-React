@@ -16,7 +16,7 @@
     padding: 0 20px;
   }
   
-  /* Image Layout */
+  
   .images-container {
     position: relative;
     flex: 1;
@@ -70,7 +70,7 @@
     transform: translateY(-20%);
   }
   
-  /* Animation for images */
+
   .images-container {
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
@@ -80,7 +80,7 @@
     opacity: 1;
   }
   
-  /* Text Animations */
+  
   .text-container {
     flex: 1;
     max-width: 50%;
@@ -95,16 +95,17 @@
     transform: translateY(0);
   }
   
-  .section-title {
-    color: #6c9e34;
+  .section-title1 h4{
+    color: #6c9e33;
     font-size: 20px;
     margin-bottom: 10px;
   }
-  
+ 
   .text-container h2 {
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 700;
     color: #333;
+    margin-right: 30px;
     margin-bottom: 20px;
   }
   
@@ -154,7 +155,6 @@
     margin-left: 12px;
   }
   
-  /* Responsive Styles */
   @media (max-width: 768px) {
     .container {
       flex-direction: column;

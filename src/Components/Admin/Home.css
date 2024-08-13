@@ -1,0 +1,50 @@
+.home-container {
+  padding: 20px;
+  height: 82vh;
+  background-color: rgb(124, 112, 135);
+}
+
+.counts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.count-card {
+  background-color: #e6aff7;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 150px;
+  height: 180px;
+}
+
+.count-card i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.count-card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.count-card p {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Additional styles to organize rows */
+.counts-container > div:nth-child(1),
+.counts-container > div:nth-child(2) {
+  flex: 1 1 45%; /* Adjust the width as needed */
+}
+
+.counts-container > div:nth-child(3),
+.counts-container > div:nth-child(4) {
+  flex: 1 1 45%; /* Adjust the width as needed */
+}

@@ -3,22 +3,23 @@ import './GetStarted.css';
 import { Link } from 'react-router-dom';
 
 const GetStarted = () => {
+  window.scroll(0,0);
   return (
     <div className="get-started-page">
       <header className="get-started-header">
-        <h1>Get Started with AgriMinds</h1>
-        <p>Your path to efficient and sustainable farming begins here!</p>
+        <h1>Get Started with AgriFinds</h1>
+        {/* <p>Your path to efficient and sustainable farming begins here!</p> */}
       </header>
 
       {/* Introduction Section */}
       <section className="get-started-introduction">
         <h2>Introduction</h2>
         <p>
-        Welcome to AgroMinds, your partner in modern agriculture. We offer a comprehensive suite of tools and resources designed to boost
-         productivity and sustainability in farming. From precision agriculture and smart irrigation to pest management and supply chain optimization, 
-         our solutions help you make informed decisions. With advanced weather forecasting and soil health monitoring, you can plan
-         effectively and enhance your operations. Committed to innovation and sustainability, AgriMinds empowers you to achieve higher yields 
-         while promoting eco-friendly practices. Join us in transforming agriculture for a better future.
+          Welcome to AgriFinds, your partner in modern agriculture. We offer a comprehensive suite of tools and resources designed to boost
+          productivity and sustainability in farming. From precision agriculture and smart irrigation to pest management and supply chain optimization, 
+          our solutions help you make informed decisions. With advanced weather forecasting and soil health monitoring, you can plan
+          effectively and enhance your operations. Committed to innovation and sustainability, AgriFinds empowers you to achieve higher yields 
+          while promoting eco-friendly practices. Join us in transforming agriculture for a better future.
         </p>
       </section>
 
@@ -57,20 +58,24 @@ const GetStarted = () => {
       <section className="get-started-resources">
         <h2>Resources</h2>
         <div className="resources-container">
-          <div className="resource-item">
+          <Link to="/video-tutorials" className="resource-item">
             <img src="https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-ios-app-maker-for-video-and-movies-with-background-icon-and-image_2910655.jpg" alt="Resource 1" />
             <h3>Video Tutorials</h3>
             <p>Watch comprehensive video tutorials to learn about AgriManage's features.</p>
-          </div>
+          </Link>
           <div className="resource-item">
             <img src="https://t3.ftcdn.net/jpg/06/08/83/64/360_F_608836456_mHSejPSpYbKVdlNJR6JZebSygodG7awY.jpg" alt="Resource 2" />
+            <Link to='/schemes' className="resource-item">
             <h3>Knowledge Base</h3>
             <p>Access articles and guides that cover every aspect of agricultural management.</p>
+            </Link>
           </div>
           <div className="resource-item">
             <img src="https://img.freepik.com/free-photo/business-brain-storming_53876-95301.jpg" alt="Resource 3" />
+            <Link to='/agri' className="resource-item">
             <h3>Community Forums</h3>
             <p>Join discussions with other farmers and experts to exchange ideas and solutions.</p>
+            </Link>
           </div>
         </div>
       </section>

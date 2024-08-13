@@ -1,0 +1,57 @@
+.fertilizer-form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fertilizer-form-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .fertilizer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fertilizer-form-label {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .fertilizer-form-input,
+  .fertilizer-form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .fertilizer-form-textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .fertilizer-form-submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0a5b74;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .fertilizer-form-submit-btn:hover {
+    background-color: #125978;
+  }
+  

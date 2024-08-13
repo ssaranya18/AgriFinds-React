@@ -168,6 +168,7 @@
   
   .call-to-action h2 {
     margin-bottom: 20px;
+    color: white;
   }
 
 @media (max-width: 768px) {

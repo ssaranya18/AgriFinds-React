@@ -38,7 +38,7 @@ const LoginForm = () => {
       const result = await loginHandler(formData.email, formData.password);
       if (result.success) {
         console.log("Login successful", formData);
-        navigate("/home"); 
+        navigate("/"); 
       } else {
         setLoginError(result.message); 
       }
