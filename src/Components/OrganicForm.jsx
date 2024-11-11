@@ -67,7 +67,7 @@ const OrganicFarmSection = () => {
           className={`text-container ${isVisible ? "visible" : ""}`}
           ref={textRef}
         >
-          <h4 className="section-title1">ABOUT US</h4>
+          <h4 className="section-titlea">ABOUT US</h4>
           <h2>A farm with a big mission behind</h2>
           <p>
             At AgriFinds, our mission is to cultivate fresh, organic produce

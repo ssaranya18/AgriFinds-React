@@ -1,6 +1,11 @@
 .imagecontact{
-    background-image: url('https://gurianco.com//wp-content/uploads/2017/05/636007776415889323-1046806684_farm-wallpaper-11.jpg');
-    background-size: cover;
+  background-image: 
+  linear-gradient(
+    rgba(153, 153, 153, 0.5),   /* Dark green gradient with some transparency */
+    rgba(86, 85, 85, 0.395) /* Light white gradient with transparency */
+  ),
+  url('https://gurianco.com//wp-content/uploads/2017/05/636007776415889323-1046806684_farm-wallpaper-11.jpg');
+background-size: cover;
     background-repeat: no-repeat;
     background-position:fixed;
     height: 60vh;
@@ -9,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    /* color: #a0512d83; */
     position: relative;
     margin-bottom: 40px;
     border-radius: 0 0 0px 0px;
@@ -17,9 +22,9 @@
     overflow: hidden;
 }
 .imagecontact .image-contentc h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
-    color: #fff3f3;
+    color: #272727e8;
   }
 .contact-containernew {
     display: flex;
@@ -122,5 +127,24 @@
     .contact-form, .contact-info {
       max-width: 100%;
     }
+  }
+  .popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .popup p {
+    margin: 0;
+    font-size: 16px;
+    color: #4CAF50;
   }
   

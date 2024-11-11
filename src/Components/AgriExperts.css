@@ -143,28 +143,28 @@
   }
   
   /* Call to Action Section */
-  .call-to-action {
-    background-color: #537728;
-    color: #fff;
-    padding: 50px 20px;
+  .call-to-actionex {
+    background-color: #c5c5c5;
     text-align: center;
+    padding: 50px 20px;
   }
   
-  .call-to-action h2 {
-    font-size: 2em;
+  .call-to-actionex h2 {
+    font-size: 2.2em;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    color:#425a29;
   }
   
-  .call-to-action p {
+  .call-to-actionex p {
     font-size: 1.2em;
     max-width: 600px;
     margin: 0 auto 20px;
     line-height: 1.6;
   }
   
-  .cta-button {
+  .cta-buttonsc {
     background-color: #405e20;
     color: #fff;
     padding: 15px 30px;
@@ -177,8 +177,8 @@
     letter-spacing: 1.5px;
   }
   
-  .cta-button:hover {
-    background-color: #6d8f4f;
+  .cta-buttonsc:hover {
+    background-color: #335813;
     color: #ffffff;
     transform: translateY(-3px);
   }

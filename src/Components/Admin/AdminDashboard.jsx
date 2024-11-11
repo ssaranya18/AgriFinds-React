@@ -25,7 +25,7 @@ const AdminDashboard = ({ adminName, adminEmail, setAdminName }) => {
 
   const handleLogout = () => {
     setAdminName('');
-    navigate('/'); // Redirect to the home page on logout
+    navigate('/'); 
   };
 
   const toggleProfileMenu = () => {
@@ -90,11 +90,11 @@ const AdminDashboard = ({ adminName, adminEmail, setAdminName }) => {
                 <FaUsers className="icon" /> Users
               </a>
             </li>
-            <li onClick={() => setActiveComponent()}>
+            {/* <li onClick={() => setActiveComponent()}>
               <a href="#">
                 <FaSeedling className="icon" /> Crops
               </a>
-            </li>
+            </li> */}
             <li onClick={() => setActiveComponent(<ExpertList />)}>
               <a href="#">
                 <FaUsers className="icon" /> Experts List

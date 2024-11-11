@@ -56,11 +56,11 @@ const AgriExperts = () => {
         </div>
       </section>
 
-      <section className="call-to-action">
+      <section className="call-to-actionex">
         <h2>Want to Connect with Our Experts?</h2>
         <p>Contact us today to schedule a consultation with our agricultural experts and take your farming to the next level.</p>
         <Link to="/ScheduleConsultation">
-          <button className="cta-button">Contact Us</button>
+          <button className="cta-buttonsc">Contact Us</button>
         </Link>
       </section>
     </div>

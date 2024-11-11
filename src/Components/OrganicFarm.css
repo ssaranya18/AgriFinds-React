@@ -94,8 +94,11 @@
     opacity: 1;
     transform: translateY(0);
   }
+  .section-titlea h2{
+    color: #537728;
+  }
   
-  .section-title1 h4{
+  .section-titlea h4{
     color: #6c9e33;
     font-size: 20px;
     margin-bottom: 10px;

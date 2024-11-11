@@ -16,7 +16,7 @@ const Home = () => {
           <h1>Welcome to AgriFinds</h1>
           <p>Your Comprehensive Agricultural Management Solution</p>
           <Link to="/get-started">
-            <button className="cta-button">Get Started</button>
+            <button className="cta-buttonh">Get Started</button>
           </Link>
         </div>
       </section>
@@ -52,12 +52,12 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="call-to-action">
+      {/* <section className="call-to-actionh">
         <h2>Ready to Transform Your Agricultural Operations?</h2>
         <Link to="/register">
-          <button className="cta-button">Join Us Now</button>
+          <button className="cta-buttonh">Join Us Now</button>
         </Link>
-      </section>
+      </section> */}
       <StorePage/>
       <OrganicFarmSection/>
       <Banner/>

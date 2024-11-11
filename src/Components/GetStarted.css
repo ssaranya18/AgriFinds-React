@@ -1,14 +1,16 @@
 .get-started-page {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 2;
     color: #333;
     /* padding: 20px; */
     background-color: #f8f9fa;
   }
   
   .get-started-header {
-    background-image: url('https://wallpapers.com/images/hd/wheat-field-agriculture-on-sunset-b6cmvpqk23wwoucc.jpg');
-    background-size: cover;
+    background-image: 
+    linear-gradient(rgba(167, 167, 167, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('https://wallpapers.com/images/hd/wheat-field-agriculture-on-sunset-b6cmvpqk23wwoucc.jpg');
+  background-size: cover;
     background-position: center;
     color: #ffffff;
     padding: 200px 20px;
@@ -18,14 +20,20 @@
   }
   
   .get-started-header h1 {
-    font-size: 48px;
+    font-size: 3.3em;
     margin-bottom: 20px;
+    color: #273d0cd8;
+    /* margin-bottom: 40px; */
   }
   
   .get-started-header p {
-    font-size: 20px;
+    font-size: 21px;
+    text-align: center; /* Centers the text horizontally */
+    /* margin-bottom: 200px; Removes any default margin */
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #eaeaea;
   }
-  
   .get-started-introduction {
     background-color: #ffffff;
     padding: 50px;
@@ -105,23 +113,25 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-decoration: none;
-    
+    gap: 20px; /* Adds space between items */
+    padding: 10px;
   }
   
   .resource-item {
-    background-color: #e1dede;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     overflow: hidden;
     max-width: 300px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both transform and shadow */
     text-decoration: none;
+    height: 470px;
   }
   
   .resource-item:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(0, 0, 0); /* Add a deeper shadow on hover */
   }
   
   .resource-item img {
@@ -141,6 +151,7 @@
     color: #666;
     padding: 0 10px 20px;
   }
+  
   
   .get-started-action {
     background-color: #e1dede;

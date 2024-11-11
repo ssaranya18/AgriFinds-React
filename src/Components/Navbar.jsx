@@ -44,7 +44,7 @@ const Navbar = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/crops">Crops</Link></li>
             <li><Link to="/agri">Experts</Link></li>
-            <li><Link to="/fertilizer">Fertilizer</Link></li>
+            {/* <li><Link to="/fertilizer">Fertilizer</Link></li> */}
             <li><Link to="/schemes">Schemes</Link></li>
             <li><a href="#" onClick={handleLoginClick}>Login</a></li>
           </ul>

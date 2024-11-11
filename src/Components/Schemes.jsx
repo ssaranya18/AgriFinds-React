@@ -53,6 +53,13 @@ const schemesData = [
     url: 'https://pmkisan.gov.in/'
   },
   {
+    title: 'National Food Security Mission (NFSM)',
+    description: 'A scheme aimed at increasing the production of food grains in India, with a focus on improving the productivity of rice, wheat, pulses, and coarse cereals.',
+    details: 'NFSM encourages farmers to adopt improved technologies, increase the area under cultivation, and improve the productivity of food grains. It helps in achieving national food security.',
+    image: 'https://www.nfsm.gov.in/images/nfsm.png',
+    url: 'https://nfsm.gov.in/'
+  },
+  {
     title: 'Rashtriya Krishi Vikas Yojana (RKVY)',
     description: 'Provides incentives to states for increasing public investment in agriculture and allied sectors.',
     details: 'RKVY encourages states to enhance investments in agriculture and related sectors. It aims to achieve higher growth in agriculture and address regional imbalances in agricultural development.',
@@ -73,6 +80,15 @@ const schemesData = [
     image: 'https://media.istockphoto.com/id/2022550503/vector/cow-logo-cow-farm-logo-design-vector-vintage-cattle-angus-beef-logo.jpg?s=612x612&w=0&k=20&c=eSDaE5jws547scOmx8z1C8LLDbXs-123PCowMZ6ARM8=',
     url: 'https://dahd.nic.in/deds'
   },
+
+  {
+    title: 'National Horticulture Mission (NHM)',
+    description: 'Promotes holistic growth of the horticulture sector in India by addressing various challenges in production, processing, and marketing.',
+    details: 'NHM aims to increase the area under horticulture crops and ensure the availability of quality planting material, technology, and processing facilities.',
+    image: 'https://media.licdn.com/dms/image/v2/D4D0BAQGgjJFqATji5w/company-logo_200_200/company-logo_200_200/0/1665647862700?e=2147483647&v=beta&t=vlstVrAKF7c908L5oZIabuYBfXHk9p6JYZMQTRVPmZo',
+    url: 'http://nhm.nic.in/'
+  },
+  
 ];
 
 const SchemesPage = () => {

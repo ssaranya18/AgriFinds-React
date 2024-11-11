@@ -1,15 +1,16 @@
 .liked-products-container {
     padding: 115px;
-    background-image:url('https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg');
+    background-color: white;
+    /* background-image:url('https://img.freepik.com/free-photo/plain-yellow-wall-product-background_53876-100290.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    height:0%;
+    min-height: 60.5vh;
     color: white;
     
     
 }
 .likes{
-    font-weight: 2em;
+    font-weight: 5em;
     color: rgb(0, 0, 0);
    
 }

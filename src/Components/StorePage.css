@@ -34,6 +34,8 @@
   font-size: 2em;
   color: #59832a;
   margin-bottom: 10px;
+  text-align: left;  /* Align the heading to the left */
+  margin-left: 0;
 }
 
 .text-content p {

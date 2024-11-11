@@ -11,13 +11,19 @@
   
 
   .crops-header {
-    background-image: url('https://images.unsplash.com/photo-1511735643442-503bb3bd348a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJ5ZSUyMGZsb3VyfGVufDB8fDB8fHww');
+    background-image: 
+        linear-gradient(
+            rgba(118, 118, 118, 0.6), /* Dark overlay color with 60% opacity */
+            rgba(11, 1, 1, 0.614)  /* Lighter overlay color with 30% opacity */
+        ),
+        url('https://images.unsplash.com/photo-1511735643442-503bb3bd348a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJ5ZSUyMGZsb3VyfGVufDB8fDB8fHww');
     background-size: 1700px 790px;
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px 20px;
     text-align: center;
-    color: #162b15ca;
+    color: #252525d2;
+    font-size: 2em;
   }
   
   .crops-header h1 {
@@ -46,7 +52,8 @@
   }
   
   .overview-content h2 {
-    font-size: 36px;
+    font-size: 2.4em;
+    text-align: left;
     color: #537728;
     margin-bottom: 20px;
   }
@@ -339,7 +346,7 @@
     padding: 20px 20px;
     font-size: 1.2rem;
     color: #ffffff;
-    background-color: #9b6d09;
+    background-color: #387004;
     border: none;
     border-radius: 7px;
     cursor: pointer;
@@ -352,7 +359,9 @@
     color: black;
   }
  
-
+  .no-scroll {
+    overflow: hidden;
+  }
 
 
   

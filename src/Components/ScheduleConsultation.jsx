@@ -13,8 +13,8 @@ const experts = [
         'Published over 30 research papers on crop genetics',
         'Keynote speaker at international agriculture conferences',
       ],
-      email: 'emilycarter@gmail.com', // Corrected domain
-      phone: '+919274563748', // Changed 'Phone' to 'phone'
+      email: 'emilycarter@gmail.com', 
+      phone: '+919274563748', 
       image: 'https://materials.princeton.edu/sites/g/files/toruqf551/files/styles/freeform_750w/public/people/carter_headshot_2.jpg?itok=BUEagoLO',
     },
     {
@@ -329,8 +329,8 @@ const ScheduleConsultation = () => {
             />
           </div>
 
-          <button type="submit" className="submit-button1">Schedule Consultation</button>
         </div>
+          <button type="submit" className="submit-buttons">Schedule Consultation</button>
       </form>
     </div>
   );

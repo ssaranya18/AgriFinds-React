@@ -1,8 +1,11 @@
 .cart-page {
-    padding: 20px;
-    width: 800px;
-    margin: auto;
+    padding: 115px;
     background-color: white;
+    /* background-image:url('https://img.freepik.com/free-photo/plain-yellow-wall-product-background_53876-100290.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60.5vh;
+    color: white;
 }
 
 .cart-items {
@@ -56,4 +59,12 @@
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.cart-page p{
+    color: black;
+    
+}
+.cart-page h2{
+    font-size: 2em;
+    color: black;
 }

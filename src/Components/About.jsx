@@ -13,7 +13,7 @@ const About = () => {
     <div className="about-page">
       {/* Hero Section */}
       <section className="about-hero">
-        <div className="hero-content">
+        <div className="hero-contentab">
           <h2>About Our Agricultural Management System</h2>
           <p>Empowering farmers and agribusinesses with innovative tools and solutions for sustainable agriculture.</p>
         </div>

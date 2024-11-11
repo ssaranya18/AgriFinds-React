@@ -6,8 +6,7 @@
     border-radius: 30px;
     box-shadow: 20px 20px 20px rgb(31, 30, 30);
     max-width: 400px;
-    margin: 25px auto;
-   
+    margin: 25px auto;   
     font-family: 'Arial', sans-serif;
     border-color: #1a1919d3; 
     border-style: solid; 
@@ -16,12 +15,11 @@
   }
   
   .contact-page1 h1 {
-    text-align: center;
-   
+    text-align: center;   
     margin-bottom: 20px;
     margin-top: 10px;
     font-size: 2.5em;
-    color: #325a11;
+    color: #171a14;
   }
   
   .contact-form {
